@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 // Connection URL
 const url =
-  "mongodb+srv://dedikurniawanx:Dedi12345@cluster0.6tm4xmc.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://dedikurniawanx:dedi12345@cluster0.6tm4xmc.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(url);
 // Database Name
 const dbName = "webnext";
